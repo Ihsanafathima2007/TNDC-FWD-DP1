@@ -1,0 +1,84 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #fff;
+}
+
+.container {
+  display: flex;
+  min-height: 100vh;
+}
+
+/* Left Sidebar */
+.left {
+  background: #5a8d8c;
+  color: white;
+  width: 30%;
+  padding: 2rem;
+}
+
+.left h2 {
+  font-size: 1.2rem;
+  margin-top: 1.5rem;
+  border-bottom: 2px solid white;
+  padding-bottom: 0.3rem;
+}
+
+/* Right Content */
+.right {
+  width: 70%;
+  padding: 2rem;
+}
+
+.right h1 {
+  font-size: 2rem;
+  margin: 0;
+}
+
+.subtitle {
+  color: #666;
+  margin-bottom: 1.5rem;
+}
+
+.right h2 {
+  color: #4b0082;
+  font-size: 1.3rem;
+  border-bottom: 2px solid #ddd;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Skill bars */
+.skill {
+  margin: 10px 0;
+}
+
+.bar {
+  width: 100%;
+  height: 10px;
+  background: #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.fill {
+  height: 10px;
+  width: 0;
+  background: #4b0082;
+  transition: width 2s;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: #4b0082;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #333;
+}
